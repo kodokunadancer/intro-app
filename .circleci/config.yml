@@ -52,8 +52,11 @@ workflows:
           requires:
             - test
           context: AWS_ECR_ECS
-          repo: intro-app_circleci_test
+          repo: intro-app_circleci
           tag: '${CIRCLE_SHA1}'
+          filters:
+            branches:
+              only: master
       - aws-ecs/deploy-service-update:
           requires:
             - aws-ecr/build-and-push-image
@@ -61,7 +64,7 @@ workflows:
           family: 'intro-app'
           cluster-name: 'intro-app'
           service-name: 'intro-app'
-          container-image-name-updates: 'container=intro-app,image-and-tag=${AWS_ECR_ACCOUNT_URL}/intro-app_circleci_test:${CIRCLE_SHA1}'
+          container-image-name-updates: 'container=intro-app,image-and-tag=${AWS_ECR_ACCOUNT_URL}/intro-app_circleci:${CIRCLE_SHA1}'
           filters:
             branches:
               only: master

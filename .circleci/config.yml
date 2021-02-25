@@ -26,13 +26,16 @@ jobs:
             - ./vendor
           key: v1-dependencies-{{ checksum "composer.json" }}
       - run:
+          name: Install three libraries related to GD
           command: sudo apt-get install -y wget git unzip libpq-dev libfreetype6-dev libjpeg62-turbo-dev libpng-dev
       - run:
+          name: Support Freetype2 and jpeg
           command: sudo docker-php-ext-configure gd --with-freetype --with-jpeg
       - run:
+          name: Install GD library
           command: sudo docker-php-ext-install -j$(nproc) gd
       - run:
-          name: Make .env file
+          name: Make .env.testing
           command: cp .env.testing ../
       - run:
           name: Generate php artisan key

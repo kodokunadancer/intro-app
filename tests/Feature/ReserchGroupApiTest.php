@@ -50,41 +50,41 @@ class ReserchGroupApiTest extends TestCase
      */
     public function should_検索したグループが存在しない場合は該当のステータスコードとエラーテキストを返す(): void
     {
-         $data = [
+        $data = [
           'group_name' => '存在しないグループ名',
           'password' => $this->group->password,
         ];
-         $response = $this->actingAs($this->user)
-             ->json('POST', route('reserch.group', [
+        $response = $this->actingAs($this->user)
+            ->json('POST', route('reserch.group', [
                    'user' => $this->user->id,
              ]), $data);
 
-         $response
-             ->assertStatus(400)
-             ->assertJsonFragment([
-                'error' => 'NotGroup'
+        $response
+            ->assertStatus(400)
+            ->assertJsonFragment([
+                'error' => 'NotGroup',
              ]);
-     }
+    }
 
-     /**
-      * @test
-      * 異常系テスト
-      */
-     public function should_検索したグループにすでに参加済みの場合は該当のステータスコードとエラーテキストを返す(): void
-     {
-          $this->user->groups()->save($this->group);
-          $data = [
+    /**
+     * @test
+     * 異常系テスト
+     */
+    public function should_検索したグループにすでに参加済みの場合は該当のステータスコードとエラーテキストを返す(): void
+    {
+        $this->user->groups()->save($this->group);
+        $data = [
            'group_name' => 'グループ名',
            'password' => $this->group->password,
          ];
-          $response = $this->actingAs($this->user)
-              ->json('POST', route('reserch.group', [
+        $response = $this->actingAs($this->user)
+            ->json('POST', route('reserch.group', [
                     'user' => $this->user->id,
               ]), $data);
 
-          $response->assertStatus(400)
-              ->assertJsonFragment([
-                'error' => 'Participated'
+        $response->assertStatus(400)
+            ->assertJsonFragment([
+                'error' => 'Participated',
               ]);
-      }
+    }
 }

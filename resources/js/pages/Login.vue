@@ -145,7 +145,7 @@ export default {
       if(this.apiStatus) {
         this.$router.push({ name: 'GroupList', params: {id: this.$store.getters['auth/userid']}})
         this.$store.commit('message/setSuccessContent', {
-          successContent: "ゲストユーザー「Engineer」としてログインしました！",
+          successContent: "ゲストユーザーとしてログインしました！",
           timeout: 6000
         })
       }

@@ -20,7 +20,6 @@ class GroupPolicy
      */
     public function view(User $user, Group $group)
     {
-        return $user->groups($group);
+        return $user->groupUser($group);
     }
-
 }

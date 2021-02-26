@@ -12,7 +12,7 @@ class EditProfilePolicy
     use HandlesAuthorization;
 
     /**
-     * ログインユーザーのみがプロフィールを作成できる
+     * プロフィール編集の権限があるかチェック
      *
      * @param User $user
      * @return mixed

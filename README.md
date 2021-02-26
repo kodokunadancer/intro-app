@@ -49,8 +49,7 @@ VuexやVuerouterも使用し、非同期通信をうまく取り扱うことが�
 # 2. アプリケーションの概要  
   
 各々が自由にグループを作り、所属し、その中でプロフィールを共有する。（レスポンシブ対応）  
-アプリケーションURL(http://intro-app-vue-900055709.ap-northeast-1.elb.amazonaws.com)  
-(Route53で通していません)
+アプリケーションURL(intro-app-1618809942.ap-northeast-1.elb.amazonaws.com)  
   
 # 3. アプリケーション主要機能一覧  
   

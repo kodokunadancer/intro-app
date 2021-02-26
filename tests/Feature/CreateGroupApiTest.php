@@ -53,20 +53,21 @@ class CreateGroupApiTest extends TestCase
      * @test
      * 異常系テスト
      */
-    public function should_何も入力せずに送信した場合該当のエラーテキストを返す()
+    public function should_何も入力せずに送信した場合該当のエラーテキストを返す(): void
     {
         $response = $this->actingAs($this->user)
             ->json(
                 'POST',
                 route('create.group', [
                   'user' => $this->user->id,
-            ]));
+            ])
+            );
 
         $response
             ->assertStatus(422)
             ->assertJsonFragment([
                 'errors' => [
-                    'name' => ['グループ名は必ず指定してください。']
+                    'name' => ['グループ名は必ず指定してください。'],
                 ],
             ]);
     }
@@ -75,7 +76,7 @@ class CreateGroupApiTest extends TestCase
      * @test
      * 異常系テスト
      */
-    public function should_文字数オーバーした場合該当のエラーテキストを返す()
+    public function should_文字数オーバーした場合該当のエラーテキストを返す(): void
     {
         $data = [
             'name' => str_repeat('a', 21),
@@ -85,14 +86,15 @@ class CreateGroupApiTest extends TestCase
                 'POST',
                 route('create.group', [
                   'user' => $this->user->id,
-            ]), $data
-          );
+            ]),
+                $data
+            );
 
         $response
             ->assertStatus(422)
             ->assertJsonFragment([
                 'errors' => [
-                    'name' => ['グループ名は、20文字以下で指定してください。']
+                    'name' => ['グループ名は、20文字以下で指定してください。'],
                 ],
             ]);
     }

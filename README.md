@@ -49,7 +49,7 @@ VuexやVuerouterも使用し、非同期通信をうまく取り扱うことが�
 # 2. アプリケーションの概要  
   
 各々が自由にグループを作り、所属し、その中でプロフィールを共有する。（レスポンシブ対応）  
-アプリケーションURL[intro-app-1618809942.ap-northeast-1.elb.amazonaws.com]
+アプリケーションURL[](intro-app-1618809942.ap-northeast-1.elb.amazonaws.com)
   
 # 3. アプリケーション主要機能一覧  
   
@@ -81,7 +81,7 @@ AWS(ECS, EC2, ECR, RDS for postgres, VPC, S3, ALB, Route53, CloudWatch)
   
 **AWS アーキテクチャ図**    
 自分で書きました。  
-[AWS アーキテクチャ図](https://introductionapp.s3-ap-northeast-1.amazonaws.com/vue/intro-app-vue_AWS_Architecture.jpg)  
+![AWS アーキテクチャ図](https://introductionapp.s3-ap-northeast-1.amazonaws.com/vue/intro-app-vue_AWS_Architecture.jpg)  
   
 **CI/CD（CicleCI/CD）**  
 CI・・・プッシュ時にPHPUnitが自動で実行される  

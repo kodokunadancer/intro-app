@@ -13,9 +13,12 @@
 # 1. アプリケーションの概要  
   
 各々が自由にグループを作り、所属し、その中でプロフィールを共有する。（レスポンシブ対応）  
-アプリケーションURL [https://www.intro-app.link/](https://www.intro-app.link/)  
+アプリケーションURL  
+[https://www.intro-app.link/](https://www.intro-app.link/)  
 
-![intro-app_movie_1](https://user-images.githubusercontent.com/39019484/109376922-0f1b9880-790b-11eb-9114-872c36b14f01.gif)
+![intro-app_movie_1](https://user-images.githubusercontent.com/39019484/109376922-0f1b9880-790b-11eb-9114-872c36b14f01.gif)  
+  
+![intro-app_movie_2](https://user-images.githubusercontent.com/39019484/109381936-a0493a00-7920-11eb-8df1-27f54cd3ac65.gif)
 
 # 1.　特に見てほしいポイント  
   

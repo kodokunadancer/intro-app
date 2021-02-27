@@ -23,8 +23,8 @@
 またグループやプロフィールは編集することなどもできます。
 ![intro-app_movie_2](https://user-images.githubusercontent.com/39019484/109381936-a0493a00-7920-11eb-8df1-27f54cd3ac65.gif)  
   
-レスポンシブにも対応させました。
-
+レスポンシブにも対応させました。  
+![intro-app_movie_3](https://user-images.githubusercontent.com/39019484/109382202-61b47f00-7922-11eb-9628-98125cf07b37.gif)
 
 # 2.　特に見てほしいポイント  
   

@@ -15,6 +15,8 @@
 各々が自由にグループを作り、所属し、その中でプロフィールを共有する。（レスポンシブ対応）  
 アプリケーションURL [https://www.intro-app.link/](https://www.intro-app.link/)  
 
+![result](https://user-images.githubusercontent.com/39019484/109376307-f27d6180-7906-11eb-96aa-111a0ab8d58a.gif)
+
 # 1.　特に見てほしいポイント  
   
 ## 1-1. インフラ（AWS)の構築  

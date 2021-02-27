@@ -23,9 +23,9 @@
 またグループやプロフィールは編集することなどもできます。
 ![intro-app_movie_2](https://user-images.githubusercontent.com/39019484/109381936-a0493a00-7920-11eb-8df1-27f54cd3ac65.gif)  
   
-レスポンシブにも対応させました。  
-![intro-app_movie_3](https://user-images.githubusercontent.com/39019484/109382202-61b47f00-7922-11eb-9628-98125cf07b37.gif)
-
+グループを検索してそのグループに所属することもできます。（以下の通りにレスポンシブにも対応させました）
+![intro-app_movie_3](https://user-images.githubusercontent.com/39019484/109402701-433e9a00-799b-11eb-8930-30bd5c0e6173.gif)
+  
 # 2.　特に見てほしいポイント  
   
 ## 2-1. インフラ（AWS)の構築  

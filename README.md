@@ -1,6 +1,6 @@
 # [自己紹介アプリ](https://www.intro-app.link/) 
   
-# 1. アプリケーションの概要  
+# 1. アプリケーション概要  
   
 各々が自由にグループを作り、所属し、その中でプロフィールを共有する。（レスポンシブ対応）  
 アプリケーションURL  
@@ -14,7 +14,7 @@
 ![intro-app_movie_2](https://user-images.githubusercontent.com/39019484/109381936-a0493a00-7920-11eb-8df1-27f54cd3ac65.gif)  
   
 グループを検索してそのグループに所属することもできます。（以下のようににレスポンシブにも対応させてみました）
-![intro-app_movie_3](![intro-app_movie_3](https://user-images.githubusercontent.com/39019484/109403923-75082e80-79a4-11eb-8356-a6b30c439aa3.gif)
+![intro-app_movie_3](https://user-images.githubusercontent.com/39019484/109403923-75082e80-79a4-11eb-8356-a6b30c439aa3.gif)
   
 # 2.　特に見てほしいポイント  
   

@@ -136,7 +136,7 @@ export default {
     async logout () {
       await this.$store.dispatch('auth/logout')
       if(this.apiStatus) {
-        this.$router.push('/login')
+        this.$router.push('/')
       }
     },
     //スマホにてメニューボタンをクリックしたときの挙動

@@ -1,20 +1,32 @@
-# [自己紹介アプリ](https://www.intro-app.link/) 
+# [自己紹介アプリ](https://www.intro-app.link/)   
+  
+![ホームページ画像](https://introduction-app.s3-ap-northeast-1.amazonaws.com/app-images/home.png)
   
 # 1. アプリケーション概要  
   
-各々が自由にグループを作り、所属し、その中でプロフィールを共有する。（レスポンシブ対応）  
+各々が自由にグループを作り、所属し、その中でプロフィールを共有できる。  
+  
 アプリケーションURL  
 [https://www.intro-app.link/](https://www.intro-app.link/)  
   
 例えばグループの中に入るとそのグループに所属しているユーザーのプロフィール一覧が表示される。  
-また誰かのプロフィールをクリックすると、プロフィール詳細画面に移り、そこでコメントやいいねを付与することができる
+そして誰かのプロフィールをクリックすると、プロフィール詳細画面に移り、そこでコメントやいいねを付与することができる。  
+  
 ![intro-app_movie_1](https://user-images.githubusercontent.com/39019484/109376922-0f1b9880-790b-11eb-9114-872c36b14f01.gif)  
   
-またグループやプロフィールは編集することなどもできます。
+またグループやプロフィールは編集することなどもできます。  
+  
 ![intro-app_movie_2](https://user-images.githubusercontent.com/39019484/109381936-a0493a00-7920-11eb-8df1-27f54cd3ac65.gif)  
   
-グループを検索してそのグループに所属することもできます。（以下のようににレスポンシブにも対応させてみました）
-![intro-app_movie_3](https://user-images.githubusercontent.com/39019484/109403923-75082e80-79a4-11eb-8356-a6b30c439aa3.gif)
+グループを検索してそのグループに所属することもできます。（以下のようににレスポンシブにも対応させてみました）  
+  
+![intro-app_movie_3](https://user-images.githubusercontent.com/39019484/109403923-75082e80-79a4-11eb-8356-a6b30c439aa3.gif)  
+  
+その他  
+  
+グループは自由に退会できる。  
+グループ作成者はグループを削除したり、グループ内にいるユーザーを強制退会させる権限をもつ。    
+etc...  
   
 # 2.　特に見てほしいポイント  
   

@@ -1,6 +1,5 @@
 # [自己紹介アプリ](https://www.intro-app.link/)   
   
-![ホームページ画像](https://introduction-app.s3-ap-northeast-1.amazonaws.com/app-images/home-top.png)  
 ![ホームページ画像](https://introduction-app.s3-ap-northeast-1.amazonaws.com/app-images/home.png)  
   
 # 1. アプリケーション概要  

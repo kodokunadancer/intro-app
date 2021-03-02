@@ -32,7 +32,7 @@
         </div>
       </div>
       <div class="about-service-block">
-        <h3 class="heading">お互いを深く理解し交流し合えるコミュニティプラットフォーム</h3>
+        <h3 class="heading">お互いを深く理解し交流し合えるコミュニティープラットフォーム</h3>
         <div class="about-service-block__item__wrapper">
           <div class="about-service-block__item">
             <div class="heading">自由にグループを作成できる</div>

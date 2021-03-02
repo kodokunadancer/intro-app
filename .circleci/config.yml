@@ -35,9 +35,6 @@ jobs:
           name: Install GD library
           command: sudo docker-php-ext-install -j$(nproc) gd
       - run:
-          name: Make .env.testing
-          command: cp .env.testing ../
-      - run:
           name: Generate php artisan key
           command: php artisan key:generate --env=testing
       - run:

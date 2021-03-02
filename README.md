@@ -47,7 +47,7 @@ CloudWatchでコンテナ内のログを出力させ、デバッグに役立て�
   
 今までは手動でテストやECRへのプッシュやECSのデプロイを行っていましたが、かなり作業的であったためそれらの「自動化」を実装してみました。  
   
-CIに関しては、PHPUnitを自動で実行できるよう設計しました。  
+CIに関しては、PHPUnitを自動で実行できるよう設計しました（テスト用データベースはSQLiteのインメモリ機能を使用）。   
 CDに関しては、**新しい技術であるOrbsを利用して、ECRへの自動プッシュ、ECSへの自動デプロイを実行できるようにしてみました。**     
   
 ## 2-3 完全SPA化  
@@ -101,7 +101,7 @@ AWS(ECS, EC2, ECR, RDS for postgres, VPC, S3, ALB, Route53, CloudWatch, Route53,
 ![AWS アーキテクチャ図](https://introduction-app.s3-ap-northeast-1.amazonaws.com/aws/intro-app_arcitecture.png)  
   
 **CI/CD（CicleCI/CD）**  
-CI・・・プッシュ時にPHPUnitが自動で実行される  
+CI・・・Githubプッシュ時にPHPUnitが自動で実行される（テスト用データベースにはSQLiteのインメモリ機能を使用）。  
 CD・・・Dockerfileより自前のイメージを作成し、そのイメージをOrbsを利用しECRへ自動プッシュし、そしてそれをECSへ自動デプロイする  
   
 **◯使用言語**  

@@ -94,7 +94,7 @@ Docker /docker-compose
 データベース Postgres  
 
 **本番環境**  
-AWS(ECS, EC2, ECR, RDS for postgres, VPC, S3, ALB, Route53, CloudWatch, Route53, ACM)   
+AWS(ECS, EC2, ECR, RDS for postgres, VPC, S3, ALB, CloudWatch, Route53, ACM)   
   
 **AWS アーキテクチャ図**    
 自分で書きました。  

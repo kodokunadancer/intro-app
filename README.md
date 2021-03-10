@@ -125,6 +125,7 @@ VueRouter（ルーティングの制御）
 ・CloudWatchでコンテナのログを検出  
 ・S3に環境変数のキーと値が書かれたファイルをアップロードし、ECSからS3へ環境変数を参照できるように設計   
 ・PHPUnitを使用したAPIテストなどの実施（正常系・異常系）   
+・フォーマッター（PHP-CS-Fixer）やPHPDocを用いてコードの可読性をあげる   
 ・Vue.js と Laravel を組み合わせたSPAの構築    
 ・SPA におけるクッキー認証と CSRF 対策  
 ・Vue Router を使用した画面遷移  

@@ -57,7 +57,7 @@ class GroupController extends Controller
         ['password', $request->password],
       ])->with('photo')->first();
 
-        $groups = $user->groups()->get()->all();
+        $groups = $user->groupUser()->get()->all();
         $id_array = array_column($groups, 'id');
 
         //検索したグループが存在しない場合

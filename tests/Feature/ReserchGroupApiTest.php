@@ -72,7 +72,7 @@ class ReserchGroupApiTest extends TestCase
      */
     public function should_検索したグループにすでに参加済みの場合は該当のステータスコードとエラーテキストを返す(): void
     {
-        $this->user->groups()->save($this->group);
+        $this->user->groupUser()->save($this->group);
         $data = [
            'group_name' => 'グループ名',
            'password' => $this->group->password,

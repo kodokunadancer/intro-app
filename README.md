@@ -163,7 +163,7 @@ CircleCIは新しい技術でバージョンアップも頻繁に起こるので
 しかしやっていくうちに、コンポーネント間のデータのやりとりやVuexを用いたデータの保管などにうまく対応できるようになりました。  
   
 **SPA関連の書いたQitta記事**    
-[Vueにおけるフラッシュメッセージ表示のロジック](https://qiita.com/kodokunadancer/items/ba313e89de9e4f283f83)  
+[初学者がVue.jsをポートフォリオに組み込んだのでポイントをメモしておく](https://qiita.com/kodokunadancer/items/a7094cf3c32597e414cc)  
   
 # 6. 今後追加したい機能  
   
